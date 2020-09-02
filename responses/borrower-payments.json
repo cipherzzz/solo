@@ -1,0 +1,60 @@
+{
+    "metadata": {
+        "requestId": "66526fbc9691bfa753b9d86516d0d2b1",
+        "sortBy": ["id"],
+        "sortDirection": "descending",
+        "page": 1,
+        "per_page": 2,
+        "page_count": 2,
+        "total_count": 6,
+        "Links": [{
+                "self": "/borrowers/5364565/payments?status=all&page=1&per_page=2&sortBy=id&sortDirection=descending&requestId=66526fbc9691bfa753b9d86516d0d2b1"
+            },
+            {
+                "first": "/borrowers/5364565/payments?status=all&page=0&per_page=2&sortBy=id&sortDirection=descending&requestId=66526fbc9691bfa753b9d86516d0d2b1"
+            },
+            {
+                "previous": "/borrowers/5364565/payments?status=all&page=0&per_page=2&sortBy=id&sortDirection=descending&requestId=66526fbc9691bfa753b9d86516d0d2b1"
+            },
+            {
+                "next": "/borrowers/5364565/payments?status=all&page=2&per_page=2&sortBy=id&sortDirection=descending&requestId=66526fbc9691bfa753b9d86516d0d2b1"
+            },
+            {
+                "last": "/borrowers/5364565/payments?status=all&page=2&per_page=2&sortBy=id&sortDirection=descending&requestId=66526fbc9691bfa753b9d86516d0d2b1"
+            }
+        ]
+    },
+    "payments": [{
+            "id": 99999999,
+            "created": "2020-09-01T18:04:06.769Z",
+            "lastUpdate": "2020-09-01T18:04:06.769Z",
+            "status": "complete",
+            "loan": {
+                "id": 75686787,
+                "link": "/borrowers/5364565/loans/75686787"
+            }
+            "borrower": {
+                "id": 5364565,
+                "thumb": "/assets/5364565_thumb.jpg",
+
+            },
+            "amount": 115,
+        },
+        {
+            "id": 88888888,
+            "created": "2020-09-01T18:04:06.769Z",
+            "lastUpdate": "2020-09-01T18:04:06.769Z",
+            "status": "complete",
+            "loan": {
+                "id": 8473445,
+                "link": "/borrowers/5364565/loans/8473445"
+            }
+            "borrower": {
+                "id": 6457456,
+                "thumb": "/assets/6457456_thumb.jpg",
+
+            },
+            "amount": 115,
+        },
+    ]
+}

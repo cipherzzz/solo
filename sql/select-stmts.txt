@@ -1,0 +1,17 @@
+# Select available loans for origination
+#pseudo as I don't have time to create complete ddls
+#note the paging at the bottom - it won't work but that's where my head is at
+Select l.id as loanId, l.created, l.lastUpdate, l.status, l.amount, l.tip, l.termExpiration, l.description, b.id as borrowerId, b.rating 
+from loan l, borrower b 
+where l.id in (b.loanIds) and l.status='open' 
+sortBy b.rating, l.amount, l.termExpiration
+order by l.id offset 2 limit 2
+
+# Select borrower payments
+#pseudo as I don't have time to create complete ddls
+#note the paging at the bottom - it won't work but that's where my head is at
+select p.id, p.created, p.lastUpdate, p.status, p.loanId, b.id as borrowerId, p.amount 
+from payment p, borrower b 
+where b.id = 34634523 and p.loanId in (b.loanIds) and p.status=* 
+groupBy p.loanId 
+order by p.loanId offset 2 limit 2

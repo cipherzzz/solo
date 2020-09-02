@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "requestId": "098f6bcd4621d373cade4e832627b4f6",
+        "sortBy": ["rating", "amount", "termExpiration"],
+        "sortDirection": "descending",
+        "page": 1,
+        "per_page": 2,
+        "page_count": 2,
+        "total_count": 6,
+        "Links": [{
+                "self": "/loans?status=open&page=1&per_page=2&sortBy=rating,amount,termExpiration&sortDirection=descending&requestId=098f6bcd4621d373cade4e832627b4f6"
+            },
+            {
+                "first": "/loans?status=open&page=0&per_page=2&sortBy=rating,amount,termExpiration&sortDirection=descending&requestId=098f6bcd4621d373cade4e832627b4f6"
+            },
+            {
+                "previous": "/loans?status=open&page=0&per_page=2&sortBy=rating,amount,termExpiration&sortDirection=descending&requestId=098f6bcd4621d373cade4e832627b4f6"
+            },
+            {
+                "next": "/loans?status=open&page=2&per_page=2&sortBy=rating,amount,termExpiration&sortDirection=descending&requestId=098f6bcd4621d373cade4e832627b4f6"
+            },
+            {
+                "last": "/loans?status=open&page=2&per_page=2&sortBy=rating,amount,termExpiration&sortDirection=descending&requestId=098f6bcd4621d373cade4e832627b4f6"
+            }
+        ]
+    },
+    "loans": [{
+            "id": 13242534,
+            "created": "2020-09-01T18:04:06.769Z",
+            "lastUpdate": "2020-09-01T18:04:06.769Z",
+            "status": "open",
+            "borrower": {
+                "id": 5364565,
+                "rating": 99,
+                "repaidCount": 25,
+                "thumb": "/assets/5364565_thumb.jpg",
+                "link": "/borrowers/5364565"
+            },
+            "payments": [],
+            "amount": 100,
+            "tip": 15,
+            "termExpiration": "2020-09-15T00:00:00.000Z",
+            "description": "to pay for tags on my new vehicle"
+        },
+        {
+            "id": 64653453,
+            "created": "2020-08-31T18:04:06.769Z",
+            "lastUpdate": "2020-08-31T18:04:06.769Z",
+            "status": "open",
+            "borrower": {
+                "id": 53645653,
+                "rating": 87,
+                "repaidCount": 12,
+                "thumb": "/assets/53645653_thumb.jpg",
+                "link": "/borrowers/53645653"
+            },
+            "payments": [],
+            "amount": 50,
+            "tip": 10,
+            "termExpiration": "2020-09-14T00:00:00.000Z",
+            "description": "pay parking tickets"
+        }
+    ]
+}
